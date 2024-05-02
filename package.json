@@ -2,7 +2,7 @@
   "name": "for_build",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jane824691.github.io/",
+  "homepage": "https://jane824691.github.io/for_build",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.17.0",
@@ -16,12 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "npm run dev"
   },
   "eslintConfig": {
     "extends": [
